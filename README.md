@@ -8,8 +8,8 @@
 We are in the era of self-driving cars recognizing and classifying traffic signs is of utmost importance. The model analyzes the properties of traffic sign images and recognizing the traffic signs out of them. Identifying the traffic signs correctly and taking actions is crucial to the operation of autonomous vehicles this process of classification of traffic sign would help safe driving and help preventing the accidents.  
 This algorithm has to aspects:
 
-*	Extracting the features from the traffic sign images like size color etc. 
-*       Image classification classifying images to the corresponding class based on the features
+*	Extracting the features from the traffic sign images like size color etc.
+*	Image classification classifying images to the corresponding class based on the features
 
 
 A car doesn’t have eyes but in self-driving cars we use cameras and other sensors to achieve a similar function. For Example taking the following image as input the algorithm has to identify whether or not it’s a no left turn sign:
