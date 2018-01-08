@@ -15,9 +15,12 @@ A car doesn’t have eyes but in self-driving cars we use cameras and other sens
  <p></p> 
  <p style="text-align: center;"> This is a sample image to detect road lines on. </p> 
 </figcaption>
-This project has several application areas: 
+This project has several application areas:
+	
 *	Self-driving Cars 
+
 *	Driver assistance systems 
+
 *	Urban scene understanding sign monitoring for maintenance
 	
 ---
