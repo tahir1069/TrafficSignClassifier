@@ -18,14 +18,16 @@ A car doesn’t have eyes but in self-driving cars we use cameras and other sens
 This project has several application areas: 
 *	Self-driving Cars 
 *	Driver assistance systems 
-*	Urban scene understanding sign monitoring for maintenance 
+*	Urban scene understanding sign monitoring for maintenance
+	
 ---
 ***
 ## Approach 
 ---
 ***
+
 With advancement towards deep learning model. The major breakthrough was in 2012 when a model called Alex net was trained on millions of images and classified real world images and won the world’s biggest image classifying contest. 
-I have extended this popular architecture and made it more suitable for traffic sign image recognition and classification. Alexnet is a neural inspired model which is one of the popular architecture for convolutional neural networks. It’s quite easy to understand and easy to learn. I have used RELU activation and Adam Optimizer for optimization and loss function. Than used softmax to view the top 5 guess for a given traffic sign. I have used [German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset), which is one of the most reliable datasets for training testing and validating traffic sign recognition and classification algorithm.
+I have extended this popular architecture and made it more suitable for traffic sign image recognition and classification. Alexnet is a neural inspired model which is one of the popular architecture for convolutional neural networks. It’s quite easy to understand and easy to learn. I have used RELU activation and Adam Optimizer for optimization and loss function. Than used softmax to view the top 5 guess for a given traffic sign. I have used [German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) , which is one of the most reliable datasets for training testing and validating traffic sign recognition and classification algorithm.
 The dataset has more than 50000 images with 43 classes.  The refined dataset was provided by Udacity. Which contained 32x32 RGB colored images. For this classifier training set contained 34799, validation set has 4410 images whereas test set contained 12630 images. 
 	X_train		(34799, 32, 32, 3)
 			uint8
